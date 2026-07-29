@@ -281,17 +281,6 @@ Motor EMI can freeze the I2C bus, causing the ESP32 to hang. The firmware implem
 - **Custom PCB** — Shielded traces, proper motor snubbers, and grounding for EMI hardening
 - **Energy Harvesting** — Power the sensor node from the motor's own vibration energy
 
----
-
-## 📄 Technical Report
-
-A full **IEEE-style case study report** is included in `case_study_report.tex`, covering:
-- Complete mathematical derivation of Welford's algorithm
-- Circuit schematics and pin assignments
-- Literature review and novelty analysis
-- Experimental results and performance benchmarks
-
-Compile with `pdflatex case_study_report.tex` or upload to [Overleaf](https://www.overleaf.com).
 
 ---
 
